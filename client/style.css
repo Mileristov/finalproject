@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+#pictureHeader {
+    width: 150px;
+    height: 150px;
+    border-radius: 180px;
+    cursor: pointer;
+}
+
+#pictureHeader:hover {
+    width: 165px;
+    height: 165px;
+    border-radius: 180px;
+    cursor: pointer;
+}
+
+#logo {
+    width: 50px;
+}
+
+#logo:hover {
+    width: 55px;
+}
+
+.header {
+    height: 4em;
+    background-color: rgb(245, 245, 220);
+    justify-content: start;
+    border-bottom: 1px solid;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#logout {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    margin-right: 2%;
+    margin-top: 2%;
+    font-weight: bolder;
+}
+
+#logout:hover {
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.founduserprofilepic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile-container {
+    text-align: center;
+}
+.user-search {
+    text-align: center;
+}
+.results {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+}
