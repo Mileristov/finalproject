@@ -1,7 +1,11 @@
 const spicedPg = require("spiced-pg");
-const db = spicedPg(
-    "postgres:postgres:kalendar123@localhost:5432/socialnetwork"
-);
+
+const dbUrl =
+    process.env.DATABASE_URL ||
+    "postgres:postgres:kalendar123@localhost:5432/socialnetwork";
+
+const db = spicedPg(dbUrl);
+
 const bcrypt = require("bcryptjs");
 
 function hashPassword(password) {
