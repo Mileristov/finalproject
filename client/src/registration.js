@@ -46,7 +46,7 @@ export default class Registration extends Component {
     render() {
         return (
             <>
-                <h1>Registration Component</h1>
+                <h1>Sign up bellow</h1>
                 {this.state.error && <p>Oops, something went wrong!</p>}
                 <form onSubmit={this.handleSubmit}>
                     <input
